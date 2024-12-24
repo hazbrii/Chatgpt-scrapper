@@ -10,7 +10,7 @@ import random
 # Set up Chrome options
 options = Options()
  
-options.add_argument(r"user-data-dir=C:\Users\Hazbri\AppData\Local\Google\Chrome\User Data")
+options.add_argument(r"user-data-dir=C:\Users\****\AppData\Local\Google\Chrome\User Data")
 # Here you must add your chrome Profile you wille find in the link above
 options.add_argument("profile-directory=Profile 6")
 # options.add_argument("--disable-extensions")

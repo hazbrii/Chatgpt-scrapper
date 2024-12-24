@@ -9,7 +9,7 @@ from selenium.webdriver.common.keys import Keys
 
 # Setup ChromeDriver
 options = Options()
-options.add_argument(r"user-data-dir=C:\Users\Hazbri\AppData\Local\Google\Chrome\User Data")
+options.add_argument(r"user-data-dir=C:\Users\****\AppData\Local\Google\Chrome\User Data")
 options.add_argument("profile-directory=Profile 6")
 
 driver = webdriver.Chrome(options=options)
